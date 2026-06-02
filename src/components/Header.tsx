@@ -1,6 +1,6 @@
 "use client";
 
-import { Heart, Menu, Moon, Search, ShoppingBag, Sun, User } from "lucide-react";
+import { Menu, Moon, Search, ShoppingBag, Sun, User, X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
@@ -39,34 +39,42 @@ export function Header({ locale }: { locale: Locale }) {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-[var(--border)] bg-[var(--bg)]/95 backdrop-blur">
-      <div className="container-page flex min-h-20 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-3 font-bold" aria-label={t("home")}>
-          <span className="grid h-11 w-11 place-items-center rounded-lg bg-[var(--accent)] text-white">
-            NC
-          </span>
-          <span className="hidden text-lg sm:inline">{t("name")}</span>
+    <header className="sticky top-0 z-40 bg-[var(--bg)]">
+      <div className="bg-black py-2 text-center text-sm text-white">
+        <span>Sign up and get 20% off to your first order. </span>
+        <Link href="/signup" className="font-bold underline">Sign Up Now</Link>
+        <X className="absolute end-6 top-2 hidden h-5 w-5 md:block" />
+      </div>
+      <div className="container-page flex min-h-24 items-center justify-between gap-6 border-b border-[var(--border)]">
+        <Link href="/" className="text-[32px] font-black tracking-tighter" aria-label={t("home")}>
+          {t("name")}
         </Link>
 
-        <nav className="hidden items-center gap-7 text-sm font-semibold md:flex" aria-label="Main">
-          <Link href="/">{t("home")}</Link>
+        <nav className="hidden items-center gap-7 text-base md:flex" aria-label="Main">
+          <Link href="/category/casual">{t("shop")}⌄</Link>
+          <Link href="/category/party">{t("sale")}</Link>
+          <Link href="/#new-arrivals">{t("newArrivals")}</Link>
+          <Link href="/#brands">{t("brands")}</Link>
+          <span className="hidden">
+            <Link href="/">{t("home")}</Link>
+          </span>
+          <span className="hidden">
           {categories.map((category) => (
             <Link key={category.slug} href={`/category/${category.slug}`}>
               {locale === "ar" ? category.name_ar : category.name_en}
             </Link>
           ))}
-          <Link href="/about">{t("about")}</Link>
-          <Link href="/contact">{t("contact")}</Link>
+          </span>
         </nav>
 
-        <div className="relative hidden min-w-64 lg:block">
+        <div className="relative hidden flex-1 lg:block">
           <label className="sr-only" htmlFor="site-search">
             {t("search")}
           </label>
           <Search className="pointer-events-none absolute start-3 top-3 h-5 w-5 text-muted" />
           <input
             id="site-search"
-            className="field ps-10"
+            className="field h-14 ps-12"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder={t("search")}
@@ -92,23 +100,21 @@ export function Header({ locale }: { locale: Locale }) {
         </div>
 
         <div className="flex items-center gap-2">
-          <button className="btn-secondary !px-3" onClick={toggleTheme} aria-label={t("theme")}>
+          <button className="hidden rounded-full p-2 sm:inline-flex" onClick={toggleTheme} aria-label={t("theme")}>
             {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
           </button>
           <button
-            className="btn-secondary !px-3"
+            className="rounded-full px-2 py-2 font-bold"
             onClick={() => switchLocale(locale === "en" ? "ar" : "en")}
             aria-label={t("language")}
           >
             {locale === "en" ? "AR" : "EN"}
           </button>
-          <Link className="btn-secondary !px-3" href="/cart" aria-label={t("cart")}>
+          <Link className="flex items-center gap-1 rounded-full p-2" href="/cart" aria-label={t("cart")}>
             <ShoppingBag size={18} />
             <span>{cartCount}</span>
           </Link>
-          <span className="hidden items-center gap-1 text-sm font-bold sm:flex" aria-label={t("wishlist")}>
-            <Heart size={18} /> {wishlistCount}
-          </span>
+          <span className="sr-only">{wishlistCount}</span>
           {user ? (
             <details className="relative hidden sm:block">
               <summary className="btn-secondary cursor-pointer !px-3">
@@ -122,8 +128,8 @@ export function Header({ locale }: { locale: Locale }) {
               </button>
             </details>
           ) : (
-            <Link className="hidden font-bold sm:inline" href="/login">
-              {t("login")}
+            <Link className="hidden rounded-full p-2 sm:inline-flex" href="/login" aria-label={t("login")}>
+              <User size={20} />
             </Link>
           )}
           <button className="btn-secondary !px-3 md:hidden" onClick={() => setMenuOpen(!menuOpen)}>

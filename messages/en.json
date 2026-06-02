@@ -1,10 +1,13 @@
 {
   "site": {
-    "name": "Nordic Cart",
-    "tagline": "Everyday essentials with a clean, modern feel.",
-    "description": "A polished multilingual e-commerce mini site built with Next.js.",
+    "name": "SHOP.CO",
+    "tagline": "We have clothes that suit your style and which you're proud to wear. From women to men.",
+    "description": "Shop modern clothing, new arrivals, top selling outfits, and wardrobe essentials.",
     "home": "Home",
     "shop": "Shop",
+    "sale": "On Sale",
+    "newArrivals": "New Arrivals",
+    "brands": "Brands",
     "about": "About",
     "contact": "Contact",
     "cart": "Cart",
@@ -16,18 +19,20 @@
     "logout": "Logout",
     "theme": "Theme",
     "language": "Language",
-    "search": "Search products",
+    "search": "Search for products...",
     "emptySearch": "No matching products."
   },
   "home": {
-    "title": "Designed goods for daily life",
-    "subtitle": "Shop sharp essentials, quiet home upgrades, and wearable details in one focused storefront.",
-    "cta": "Shop collection",
-    "secondaryCta": "Explore categories",
-    "featuredCategories": "Featured categories",
-    "preview": "Fresh picks",
-    "newsletter": "Join the list",
-    "newsletterCopy": "Get product drops, style notes, and private offers."
+    "title": "FIND CLOTHES THAT MATCHES YOUR STYLE",
+    "subtitle": "Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
+    "cta": "Shop Now",
+    "secondaryCta": "View All",
+    "featuredCategories": "BROWSE BY DRESS STYLE",
+    "preview": "NEW ARRIVALS",
+    "topSelling": "TOP SELLING",
+    "customers": "OUR HAPPY CUSTOMERS",
+    "newsletter": "STAY UPTO DATE ABOUT OUR LATEST OFFERS",
+    "newsletterCopy": "Subscribe to Newsletter"
   },
   "product": {
     "addToCart": "Add to cart",
@@ -39,16 +44,22 @@
     "quantity": "Quantity"
   },
   "category": {
-    "title": "{category} products",
+    "title": "{category}",
     "sort": "Sort",
     "featured": "Featured",
     "priceAsc": "Price: low to high",
     "priceDesc": "Price: high to low"
   },
   "cart": {
-    "title": "Your cart",
+    "title": "YOUR CART",
     "empty": "Your cart is empty.",
     "subtotal": "Subtotal",
+    "discount": "Discount (-20%)",
+    "delivery": "Delivery Fee",
+    "total": "Total",
+    "summary": "Order Summary",
+    "promo": "Add promo code",
+    "apply": "Apply",
     "remove": "Remove",
     "clear": "Clear cart",
     "continue": "Continue shopping"

@@ -10,6 +10,11 @@ export type Product = {
   description_en: string;
   description_ar: string;
   inStock: boolean;
+  oldPrice?: number;
+  discount?: number;
+  rating: number;
+  colors: string[];
+  sizes: string[];
 };
 
 export type Category = {

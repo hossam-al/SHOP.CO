@@ -1,16 +1,13 @@
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { localizedName, localizedDescription, type Product } from "@/lib/types";
 import { ProductQuickActions } from "./ProductQuickActions";
 
-export async function ProductCard({ product, locale }: { product: Product; locale: Locale }) {
-  const t = await getTranslations({ locale, namespace: "product" });
-
+export function ProductCard({ product, locale, compact = false }: { product: Product; locale: Locale; compact?: boolean }) {
   return (
-    <article className="card overflow-hidden">
-      <Link href={`/product/${product.id}`} className="block bg-[#f1ede4]">
+    <article className="group">
+      <Link href={`/product/${product.id}`} className="block overflow-hidden rounded-[20px] bg-[#f0f0f0]">
         <Image
           src={product.image}
           width={640}
@@ -19,19 +16,21 @@ export async function ProductCard({ product, locale }: { product: Product; local
           className="aspect-square w-full object-cover"
         />
       </Link>
-      <div className="grid gap-3 p-4">
+      <div className="grid gap-2 pt-4">
         <div>
-          <p className="text-sm capitalize text-muted">{product.category}</p>
-          <h2 className="mt-1 text-lg font-bold">{localizedName(product, locale)}</h2>
-          <p className="mt-2 line-clamp-2 text-sm text-muted">{localizedDescription(product, locale)}</p>
+          <h2 className="text-lg font-bold">{localizedName(product, locale)}</h2>
+          {!compact ? <p className="mt-2 line-clamp-2 text-sm text-muted">{localizedDescription(product, locale)}</p> : null}
         </div>
-        <div className="flex items-center justify-between gap-3">
-          <strong>${product.price.toFixed(2)}</strong>
-          <span className={product.inStock ? "text-sm text-green-700" : "text-sm text-red-600"}>
-            {product.inStock ? t("inStock") : t("outStock")}
-          </span>
+        <div className="flex items-center gap-2 text-sm">
+          <span className="stars">★★★★★</span>
+          <span className="text-black/60">{product.rating}/5</span>
         </div>
-        <ProductQuickActions productId={product.id} inStock={product.inStock} />
+        <div className="flex flex-wrap items-center gap-2">
+          <strong className="text-2xl">${product.price}</strong>
+          {product.oldPrice ? <span className="text-2xl font-bold text-black/40 line-through">${product.oldPrice}</span> : null}
+          {product.discount ? <span className="discount-pill">-{product.discount}%</span> : null}
+        </div>
+        {!compact ? <ProductQuickActions productId={product.id} inStock={product.inStock} /> : null}
       </div>
     </article>
   );

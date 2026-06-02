@@ -12,6 +12,9 @@ export function ProductQuickActions({ productId, inStock }: { productId: string;
 
   return (
     <div className="flex gap-2">
+      <div className="flex min-w-36 items-center justify-between rounded-full bg-[#f0f0f0] px-5 font-bold text-black">
+        <span>−</span><span>1</span><span>+</span>
+      </div>
       <button
         className="btn-primary flex-1 disabled:cursor-not-allowed disabled:opacity-50"
         onClick={() => addToCart(productId)}
@@ -19,7 +22,7 @@ export function ProductQuickActions({ productId, inStock }: { productId: string;
       >
         <ShoppingBag size={18} /> {t("addToCart")}
       </button>
-      <button className="btn-secondary !px-3" onClick={() => toggleWishlist(productId)}>
+      <button className="btn-secondary !px-4" onClick={() => toggleWishlist(productId)}>
         <Heart size={18} fill={saved ? "currentColor" : "none"} />
         <span className="sr-only">{saved ? t("removeWishlist") : t("addWishlist")}</span>
       </button>

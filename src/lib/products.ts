@@ -4,9 +4,10 @@ import type { Category, Product } from "./types";
 export const products = productsJson as Product[];
 
 export const categories: Category[] = [
-  { slug: "apparel", name_en: "Apparel", name_ar: "ملابس" },
-  { slug: "bags", name_en: "Bags", name_ar: "حقائب" },
-  { slug: "home", name_en: "Home", name_ar: "المنزل" },
+  { slug: "casual", name_en: "Casual", name_ar: "كاجوال" },
+  { slug: "formal", name_en: "Formal", name_ar: "رسمي" },
+  { slug: "party", name_en: "Party", name_ar: "حفلات" },
+  { slug: "gym", name_en: "Gym", name_ar: "جيم" },
 ];
 
 export function getProducts() {

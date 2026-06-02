@@ -16,9 +16,9 @@ export function CategorySort({ value }: { value: string }) {
   }
 
   return (
-    <label className="grid gap-2 text-sm font-bold">
-      {t("sort")}
-      <select className="field min-w-56" value={value} onChange={(event) => update(event.target.value)}>
+    <label className="flex items-center gap-2 text-sm">
+      <span className="text-black/60">{t("sort")}:</span>
+      <select className="bg-transparent font-bold text-black outline-none" value={value} onChange={(event) => update(event.target.value)}>
         <option value="featured">{t("featured")}</option>
         <option value="price-asc">{t("priceAsc")}</option>
         <option value="price-desc">{t("priceDesc")}</option>
