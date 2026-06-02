@@ -2,7 +2,7 @@
 
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { CartLine } from "@/lib/types";
+import type { CartLine } from "@/types/product";
 
 type User = {
   name: string;

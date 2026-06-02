@@ -3,9 +3,9 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { getProduct, getProductsByCategory, products } from "@/lib/products";
-import { buildMetadata, siteUrl } from "@/lib/seo";
+import { buildMetadata, siteUrl } from "@/seo/metadata";
 import type { Locale } from "@/i18n/routing";
-import { localizedDescription, localizedName } from "@/lib/types";
+import { localizedDescription, localizedName } from "@/types/product";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductQuickActions } from "@/components/ProductQuickActions";
 
@@ -74,12 +74,12 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
         <div className="grid gap-4 md:grid-cols-[152px_1fr]">
           <div className="grid grid-cols-3 gap-3 md:grid-cols-1">
             {[0, 1, 2].map((thumb) => (
-              <div key={thumb} className={`overflow-hidden rounded-[20px] bg-[#f0f0f0] ${thumb === 0 ? "ring-2 ring-black" : ""}`}>
+              <div key={thumb} className={`overflow-hidden rounded-[20px] bg-[var(--background-soft)] ${thumb === 0 ? "ring-2 ring-black" : ""}`}>
                 <Image src={product.image} width={152} height={167} alt="" className="aspect-[152/167] w-full object-cover" />
               </div>
             ))}
           </div>
-          <div className="overflow-hidden rounded-[20px] bg-[#f0f0f0]">
+          <div className="overflow-hidden rounded-[20px] bg-[var(--background-soft)]">
             <Image src={product.image} width={900} height={900} alt={name} priority className="aspect-square w-full object-cover" />
           </div>
         </div>
@@ -103,7 +103,7 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
           <div className="border-b border-black/10 py-6">
             <p className="mb-4 text-black/60">Choose Size</p>
             <div className="flex flex-wrap gap-3">
-              {product.sizes.map((size) => <span key={size} className={`rounded-full px-6 py-3 ${size === "Large" ? "bg-black text-white" : "bg-[#f0f0f0] text-black/60"}`}>{size}</span>)}
+              {product.sizes.map((size) => <span key={size} className={`rounded-full px-6 py-3 ${size === "Large" ? "bg-black text-white" : "bg-[var(--background-soft)] text-black/60"}`}>{size}</span>)}
             </div>
           </div>
           <div className="mt-6 max-w-xl">

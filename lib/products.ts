@@ -1,5 +1,5 @@
 import productsJson from "@/data/products.json";
-import type { Category, Product } from "./types";
+import type { Category, Product } from "@/types/product";
 
 export const products = productsJson as Product[];
 

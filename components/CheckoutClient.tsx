@@ -7,8 +7,8 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { products } from "@/lib/products";
 import type { Locale } from "@/i18n/routing";
-import { localizedName } from "@/lib/types";
-import { shippingSchema } from "@/lib/validation";
+import { localizedName } from "@/types/product";
+import { shippingSchema } from "@/schemas/validation";
 import { Link } from "@/i18n/routing";
 import { useShopStore } from "@/store/use-shop-store";
 

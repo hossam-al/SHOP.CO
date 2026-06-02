@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { categories, getCategory, getProductsByCategory, sortProducts } from "@/lib/products";
-import { buildMetadata, siteUrl } from "@/lib/seo";
+import { buildMetadata, siteUrl } from "@/seo/metadata";
 import type { Locale } from "@/i18n/routing";
 import { ProductCard } from "@/components/ProductCard";
 import { CategorySort } from "@/components/CategorySort";
@@ -86,7 +86,7 @@ export default async function CategoryPage({
           <div className="border-b border-black/10 py-5">
             <h3 className="mb-4 text-xl font-bold">Size</h3>
             <div className="flex flex-wrap gap-2">
-              {sizes.map((size) => <span key={size} className={`rounded-full px-4 py-2 text-sm ${size === "Large" ? "bg-black text-white" : "bg-[#f0f0f0] text-black/60"}`}>{size}</span>)}
+              {sizes.map((size) => <span key={size} className={`rounded-full px-4 py-2 text-sm ${size === "Large" ? "bg-black text-white" : "bg-[var(--background-soft)] text-black/60"}`}>{size}</span>)}
             </div>
           </div>
           <div className="py-5">
@@ -113,7 +113,7 @@ export default async function CategoryPage({
           <div className="mt-10 flex items-center justify-between border-t border-black/10 pt-5">
             <button className="btn-secondary !px-5">← Previous</button>
             <div className="hidden gap-2 md:flex">
-              {[1, 2, 3].map((page) => <span key={page} className={`grid h-10 w-10 place-items-center rounded-lg ${page === 1 ? "bg-[#f0f0f0]" : ""}`}>{page}</span>)}
+              {[1, 2, 3].map((page) => <span key={page} className={`grid h-10 w-10 place-items-center rounded-lg ${page === 1 ? "bg-[var(--background-soft)]" : ""}`}>{page}</span>)}
               <span className="grid h-10 w-10 place-items-center">...</span>
               <span className="grid h-10 w-10 place-items-center">10</span>
             </div>

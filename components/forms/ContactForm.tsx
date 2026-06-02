@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { contactSchema } from "@/lib/validation";
+import { contactSchema } from "@/schemas/validation";
 
 export function ContactForm() {
   const f = useTranslations("forms");

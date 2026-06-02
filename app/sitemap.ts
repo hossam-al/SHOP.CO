@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { categories, products } from "@/lib/products";
-import { siteUrl } from "@/lib/seo";
+import { siteUrl } from "@/seo/metadata";
 import { routing } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {

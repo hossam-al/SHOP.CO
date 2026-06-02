@@ -12,7 +12,7 @@ export function ProductQuickActions({ productId, inStock }: { productId: string;
 
   return (
     <div className="flex gap-2">
-      <div className="flex min-w-36 items-center justify-between rounded-full bg-[#f0f0f0] px-5 font-bold text-black">
+      <div className="flex min-w-36 items-center justify-between rounded-full bg-[var(--background-soft)] px-5 font-bold text-black">
         <span>−</span><span>1</span><span>+</span>
       </div>
       <button

@@ -6,7 +6,7 @@ import { Minus, Plus, Tag, Trash2 } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { products } from "@/lib/products";
 import type { Locale } from "@/i18n/routing";
-import { localizedName } from "@/lib/types";
+import { localizedName } from "@/types/product";
 import { useShopStore } from "@/store/use-shop-store";
 
 export function CartClient() {
@@ -51,7 +51,7 @@ export function CartClient() {
                   alt={localizedName(product, locale)}
                   width={120}
                   height={120}
-                  className="aspect-square rounded-[9px] bg-[#f0f0f0] object-cover"
+                  className="aspect-square rounded-[9px] bg-[var(--background-soft)] object-cover"
                 />
                 <div>
                   <h2 className="text-xl font-bold">{localizedName(product, locale)}</h2>
@@ -60,10 +60,10 @@ export function CartClient() {
                   <strong className="mt-4 block text-2xl">${product.price}</strong>
                 </div>
                 <div className="flex flex-col items-end justify-between gap-5">
-                  <button className="text-[#ff3333]" onClick={() => removeFromCart(product.id)} aria-label={t("remove")}>
+                  <button className="text-[var(--danger)]" onClick={() => removeFromCart(product.id)} aria-label={t("remove")}>
                     <Trash2 size={22} />
                   </button>
-                  <div className="flex items-center gap-2 rounded-full bg-[#f0f0f0] px-4 py-3">
+                  <div className="flex items-center gap-2 rounded-full bg-[var(--background-soft)] px-4 py-3">
                   <button onClick={() => updateQuantity(product.id, quantity - 1)}>
                     <Minus size={16} />
                   </button>
@@ -86,7 +86,7 @@ export function CartClient() {
             </div>
             <div className="flex items-center justify-between">
               <span className="text-black/60">{t("discount")}</span>
-              <strong className="text-[#ff3333]">-${discount.toFixed(0)}</strong>
+              <strong className="text-[var(--danger)]">-${discount.toFixed(0)}</strong>
             </div>
             <div className="flex items-center justify-between border-b border-black/10 pb-5">
               <span className="text-black/60">{t("delivery")}</span>

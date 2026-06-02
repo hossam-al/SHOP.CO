@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { Link, useRouter } from "@/i18n/routing";
-import { authSchema } from "@/lib/validation";
+import { authSchema } from "@/schemas/validation";
 import { useShopStore } from "@/store/use-shop-store";
 
 export function AuthForm({ mode }: { mode: "login" | "signup" }) {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { categories, products } from "@/lib/products";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata } from "@/seo/metadata";
 import type { Locale } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { ProductCard } from "@/components/ProductCard";
@@ -81,7 +81,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         <div className="mt-9 text-center"><Link className="btn-secondary min-w-52" href="/category/casual">{home("secondaryCta")}</Link></div>
       </section>
 
-      <section id="categories" className="container-page rounded-[40px] bg-[#f0f0f0] p-8 md:p-14">
+      <section id="categories" className="container-page rounded-[40px] bg-[var(--background-soft)] p-8 md:p-14">
         <h2 className="section-title">{home("featuredCategories")}</h2>
         <div className="mt-10 grid auto-rows-[190px] gap-5 md:grid-cols-3">
           {categories.map((category, index) => (

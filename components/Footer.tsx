@@ -7,7 +7,7 @@ export async function Footer({ locale }: { locale: Locale }) {
   const t = await getTranslations({ locale, namespace: "site" });
 
   return (
-    <footer className="mt-24 bg-[#f0f0f0] pt-24 text-black">
+    <footer className="mt-24 bg-[var(--background-soft)] pt-24 text-black">
       <div className="container-page -mt-44 mb-14 grid gap-6 rounded-[20px] bg-black p-8 text-white md:grid-cols-[1fr_420px] md:p-12">
         <h2 className="max-w-2xl text-4xl font-black uppercase leading-tight md:text-5xl">
           STAY UPTO DATE ABOUT OUR LATEST OFFERS

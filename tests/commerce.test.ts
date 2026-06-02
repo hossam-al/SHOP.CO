@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { sortProducts } from "@/lib/products";
-import { shippingSchema } from "@/lib/validation";
+import { shippingSchema } from "@/schemas/validation";
 import { useShopStore } from "@/store/use-shop-store";
 
 const messages = {

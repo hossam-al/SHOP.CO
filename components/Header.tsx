@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { categories, products } from "@/lib/products";
-import { localizedName } from "@/lib/types";
+import { localizedName } from "@/types/product";
 import type { Locale } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { useShopStore } from "@/store/use-shop-store";

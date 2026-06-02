@@ -29,6 +29,7 @@ npm run preview
 - React Hook Form + Zod for checkout, auth, and contact validation.
 - Local mock product JSON served through route handlers.
 - Frontend-only mock auth and checkout to keep the assignment focused and timeboxed.
+- SHOP.CO design tokens applied from the professional design system: 1280px container, `#000000`, `#FFFFFF`, `#F2F0F1`, `#E5E5E5`, `#666666`, `#FFC633`, `#FF3333`, `#01AB31`.
 
 ## Route Map
 

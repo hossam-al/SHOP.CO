@@ -1,13 +1,13 @@
 import Image from "next/image";
 import type { Locale } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
-import { localizedName, localizedDescription, type Product } from "@/lib/types";
+import { localizedName, localizedDescription, type Product } from "@/types/product";
 import { ProductQuickActions } from "./ProductQuickActions";
 
 export function ProductCard({ product, locale, compact = false }: { product: Product; locale: Locale; compact?: boolean }) {
   return (
     <article className="group">
-      <Link href={`/product/${product.id}`} className="block overflow-hidden rounded-[20px] bg-[#f0f0f0]">
+      <Link href={`/product/${product.id}`} className="block overflow-hidden rounded-[20px] bg-[var(--background-soft)]">
         <Image
           src={product.image}
           width={640}

@@ -4,12 +4,16 @@
   color-scheme: light;
   --bg: #ffffff;
   --fg: #000000;
-  --muted: rgba(0, 0, 0, 0.6);
+  --muted: #666666;
   --card: #ffffff;
-  --soft: #f0f0f0;
-  --border: rgba(0, 0, 0, 0.1);
+  --background-soft: #f2f0f1;
+  --soft: #f2f0f1;
+  --border: #e5e5e5;
   --accent: #000000;
   --accent-strong: #000000;
+  --warning: #ffc633;
+  --danger: #ff3333;
+  --success: #01ab31;
 }
 
 .dark {
@@ -58,7 +62,7 @@ textarea {
 }
 
 .container-page {
-  width: min(1240px, calc(100% - 32px));
+  width: min(1280px, calc(100% - 32px));
   margin-inline: auto;
 }
 
@@ -119,21 +123,21 @@ textarea {
 }
 
 .shop-heading {
-  font-size: clamp(36px, 5vw, 64px);
+  font-size: clamp(38px, 5vw, 64px);
   line-height: 0.95;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .stars {
-  color: #ffc633;
+  color: var(--warning);
   letter-spacing: 2px;
 }
 
 .discount-pill {
   border-radius: 999px;
   background: rgba(255, 51, 51, 0.1);
-  color: #ff3333;
+  color: var(--danger);
   padding: 4px 10px;
   font-size: 12px;
 }
