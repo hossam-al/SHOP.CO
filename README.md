@@ -80,4 +80,4 @@ Target: SEO score >= 90 for desktop and mobile in both languages.
 
 ## Notes
 
-The site uses local SVG product art in `public/images` and local JSON data in `src/data/products.json`. Checkout and authentication are mock client-side flows.
+The site uses local SVG product art in `public/images` and local JSON data in `data/products.json`. Checkout and authentication are mock client-side flows.
