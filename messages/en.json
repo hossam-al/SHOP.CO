@@ -1,0 +1,92 @@
+{
+  "site": {
+    "name": "Nordic Cart",
+    "tagline": "Everyday essentials with a clean, modern feel.",
+    "description": "A polished multilingual e-commerce mini site built with Next.js.",
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "checkout": "Checkout",
+    "login": "Login",
+    "signup": "Signup",
+    "account": "Account",
+    "logout": "Logout",
+    "theme": "Theme",
+    "language": "Language",
+    "search": "Search products",
+    "emptySearch": "No matching products."
+  },
+  "home": {
+    "title": "Designed goods for daily life",
+    "subtitle": "Shop sharp essentials, quiet home upgrades, and wearable details in one focused storefront.",
+    "cta": "Shop collection",
+    "secondaryCta": "Explore categories",
+    "featuredCategories": "Featured categories",
+    "preview": "Fresh picks",
+    "newsletter": "Join the list",
+    "newsletterCopy": "Get product drops, style notes, and private offers."
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "addWishlist": "Save",
+    "removeWishlist": "Saved",
+    "inStock": "In stock",
+    "outStock": "Out of stock",
+    "related": "Related products",
+    "quantity": "Quantity"
+  },
+  "category": {
+    "title": "{category} products",
+    "sort": "Sort",
+    "featured": "Featured",
+    "priceAsc": "Price: low to high",
+    "priceDesc": "Price: high to low"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "subtotal": "Subtotal",
+    "remove": "Remove",
+    "clear": "Clear cart",
+    "continue": "Continue shopping"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping": "Shipping",
+    "review": "Review order",
+    "success": "Order confirmed",
+    "successCopy": "Thanks. Your mock order is complete.",
+    "next": "Review order",
+    "place": "Place order",
+    "back": "Back"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "address": "Address",
+    "city": "City",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Submit",
+    "send": "Send message",
+    "required": "This field is required.",
+    "emailInvalid": "Enter a valid email.",
+    "passwordMin": "Password must be at least 8 characters.",
+    "phoneInvalid": "Enter a valid phone number.",
+    "sent": "Message sent successfully.",
+    "loginSuccess": "Signed in successfully.",
+    "signupSuccess": "Account created successfully."
+  },
+  "pages": {
+    "aboutTitle": "About Nordic Cart",
+    "aboutCopy": "We curate practical products with clean design, strong usability, and a calm shopping experience.",
+    "contactTitle": "Contact us",
+    "notFoundTitle": "Page not found",
+    "notFoundCopy": "The page you are looking for does not exist.",
+    "goHome": "Back home"
+  }
+}

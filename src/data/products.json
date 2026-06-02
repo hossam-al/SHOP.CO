@@ -1,0 +1,68 @@
+[
+  {
+    "id": "p1",
+    "name_en": "Basic Tee",
+    "name_ar": "تي شيرت أساسي",
+    "price": 19.99,
+    "category": "apparel",
+    "image": "/images/basic-tee.svg",
+    "description_en": "Soft cotton tee with a relaxed everyday fit.",
+    "description_ar": "تي شيرت قطني ناعم بقصة مريحة للاستخدام اليومي.",
+    "inStock": true
+  },
+  {
+    "id": "p2",
+    "name_en": "Canvas Tote",
+    "name_ar": "حقيبة قماشية",
+    "price": 34.5,
+    "category": "bags",
+    "image": "/images/canvas-tote.svg",
+    "description_en": "Durable canvas tote with an inner pocket and clean finish.",
+    "description_ar": "حقيبة قماشية متينة بجيب داخلي وتشطيب أنيق.",
+    "inStock": true
+  },
+  {
+    "id": "p3",
+    "name_en": "Desk Lamp",
+    "name_ar": "مصباح مكتب",
+    "price": 49.99,
+    "category": "home",
+    "image": "/images/desk-lamp.svg",
+    "description_en": "Minimal LED lamp with warm light and adjustable angle.",
+    "description_ar": "مصباح LED بسيط بضوء دافئ وزاوية قابلة للتعديل.",
+    "inStock": true
+  },
+  {
+    "id": "p4",
+    "name_en": "Running Sneaker",
+    "name_ar": "حذاء جري",
+    "price": 89,
+    "category": "apparel",
+    "image": "/images/running-sneaker.svg",
+    "description_en": "Lightweight sneaker with cushioned support for daily movement.",
+    "description_ar": "حذاء خفيف بدعم مريح للحركة اليومية.",
+    "inStock": true
+  },
+  {
+    "id": "p5",
+    "name_en": "Ceramic Mug",
+    "name_ar": "كوب سيراميك",
+    "price": 16.75,
+    "category": "home",
+    "image": "/images/ceramic-mug.svg",
+    "description_en": "Matte ceramic mug with a generous handle and balanced weight.",
+    "description_ar": "كوب سيراميك مطفي بمقبض مريح ووزن متوازن.",
+    "inStock": true
+  },
+  {
+    "id": "p6",
+    "name_en": "Travel Pouch",
+    "name_ar": "حقيبة سفر صغيرة",
+    "price": 24.99,
+    "category": "bags",
+    "image": "/images/travel-pouch.svg",
+    "description_en": "Compact pouch for chargers, cosmetics, or small essentials.",
+    "description_ar": "حقيبة صغيرة للشواحن أو مستحضرات العناية أو الأساسيات.",
+    "inStock": false
+  }
+]

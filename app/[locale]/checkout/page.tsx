@@ -1,0 +1,16 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { CheckoutClient } from "@/components/CheckoutClient";
+import { buildMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "checkout" });
+  const site = await getTranslations({ locale, namespace: "site" });
+  return buildMetadata({ locale, path: "/checkout", title: `${t("title")} | ${site("name")}`, description: site("description") });
+}
+
+export default function CheckoutPage() {
+  return <CheckoutClient />;
+}
