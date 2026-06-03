@@ -26,6 +26,35 @@ export function getProductsByCategory(slug: string) {
   return products.filter((product) => product.category === slug);
 }
 
+export type ProductFilters = {
+  colors?: string[];
+  sizes?: string[];
+  minPrice?: number;
+  maxPrice?: number;
+};
+
+export function filterProducts(items: Product[], filters: ProductFilters) {
+  return items.filter((product) => {
+    if (filters.colors?.length && !filters.colors.some((color) => product.colors.includes(color))) {
+      return false;
+    }
+
+    if (filters.sizes?.length && !filters.sizes.some((size) => product.sizes.includes(size))) {
+      return false;
+    }
+
+    if (typeof filters.minPrice === "number" && product.price < filters.minPrice) {
+      return false;
+    }
+
+    if (typeof filters.maxPrice === "number" && product.price > filters.maxPrice) {
+      return false;
+    }
+
+    return true;
+  });
+}
+
 export function sortProducts(items: Product[], sort?: string | null) {
   if (sort === "price-asc") {
     return [...items].sort((a, b) => a.price - b.price);
@@ -33,6 +62,10 @@ export function sortProducts(items: Product[], sort?: string | null) {
 
   if (sort === "price-desc") {
     return [...items].sort((a, b) => b.price - a.price);
+  }
+
+  if (sort === "rating") {
+    return [...items].sort((a, b) => b.rating - a.rating);
   }
 
   return items;

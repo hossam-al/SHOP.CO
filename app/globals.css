@@ -1,5 +1,7 @@
+@import url("https://api.fontshare.com/v2/css?f[]=integral-cf@700&f[]=satoshi@400,700&display=swap");
+@import "swiper/css";
+@import "swiper/css/navigation";
 @import "tailwindcss";
-
 :root {
   color-scheme: light;
   --bg: #ffffff;
@@ -15,7 +17,18 @@
   --danger: #ff3333;
   --success: #01ab31;
 }
-
+:root {
+  --heading-font: "Integral CF", sans-serif;
+  --body-font: "Satoshi", sans-serif;
+}
+body {
+  font-family: var(--body-font);
+}
+h1,
+h2,
+.section-title {
+  font-family: var(--heading-font);
+}
 .dark {
   color-scheme: dark;
   --bg: #111827;
@@ -41,7 +54,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: "Arial", "Helvetica", sans-serif;
+  font-family: var(--body-font);
 }
 
 a {
@@ -104,7 +117,7 @@ textarea {
   color: var(--muted);
 }
 
-.field {
+:where(.field) {
   width: 100%;
   min-height: 46px;
   border: 1px solid var(--border);
@@ -112,6 +125,14 @@ textarea {
   background: var(--soft);
   color: var(--fg);
   padding: 12px 16px;
+}
+
+.field-icon {
+  padding-inline-start: 48px;
+}
+
+.field-icon-lg {
+  padding-inline-start: 56px;
 }
 
 .section-title {
@@ -132,6 +153,139 @@ textarea {
 .stars {
   color: var(--warning);
   letter-spacing: 2px;
+}
+
+.customer-swiper {
+  overflow: hidden;
+}
+
+.customer-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.customer-swiper .swiper-slide {
+  height: auto;
+}
+
+.customer-review-card {
+  border-radius: 16px;
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.price-range-input {
+  pointer-events: none;
+  position: absolute;
+  inset-inline: 0;
+  top: 50%;
+  z-index: 2;
+  height: 28px;
+  width: 100%;
+  appearance: none;
+  background: transparent;
+  transform: translateY(-50%);
+}
+
+.price-range-input::-webkit-slider-thumb {
+  pointer-events: auto;
+  height: 28px;
+  width: 28px;
+  appearance: none;
+  border-radius: 999px;
+  border: 0;
+  background: #000000;
+  cursor: pointer;
+}
+
+.price-range-input::-moz-range-thumb {
+  pointer-events: auto;
+  height: 28px;
+  width: 28px;
+  border-radius: 999px;
+  border: 0;
+  background: #000000;
+  cursor: pointer;
+}
+
+.sparkle {
+  display: block;
+  background: #000000;
+  clip-path: polygon(50% 0%, 61% 37%, 100% 50%, 61% 63%, 50% 100%, 39% 63%, 0% 50%, 39% 37%);
+  transform-origin: center;
+  animation: star-twinkle 2.8s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
+.sparkle-large {
+  animation-duration: 3s;
+}
+
+.sparkle-small {
+  animation-delay: 0.35s;
+  animation-duration: 2.4s;
+  animation-name: star-twinkle-reverse;
+}
+
+@keyframes star-twinkle {
+  0% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    opacity: 0.86;
+    transform: scale(1.12) rotate(8deg);
+  }
+
+  50% {
+    opacity: 0.62;
+    transform: scale(0.84) rotate(18deg);
+  }
+
+  75% {
+    opacity: 0.95;
+    transform: scale(1.22) rotate(28deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(36deg);
+  }
+}
+
+@keyframes star-twinkle-reverse {
+  0% {
+    opacity: 0.9;
+    transform: scale(1) rotate(0deg);
+  }
+
+  35% {
+    opacity: 0.58;
+    transform: scale(0.78) rotate(-16deg);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(1.24) rotate(-30deg);
+  }
+
+  100% {
+    opacity: 0.9;
+    transform: scale(1) rotate(-36deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sparkle {
+    animation: none;
+  }
 }
 
 .discount-pill {

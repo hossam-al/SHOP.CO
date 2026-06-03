@@ -15,7 +15,7 @@ export async function Footer({ locale }: { locale: Locale }) {
         <form className="grid content-center gap-3">
           <label className="relative">
             <Mail className="absolute start-5 top-4 h-5 w-5 text-black/40" />
-            <input className="field bg-white ps-14 text-black" placeholder="Enter your email address" />
+            <input className="field field-icon-lg bg-white text-black" placeholder="Enter your email address" />
           </label>
           <button className="btn-secondary bg-white text-black" type="button">Subscribe to Newsletter</button>
         </form>

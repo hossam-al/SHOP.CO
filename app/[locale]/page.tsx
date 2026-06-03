@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { categories, products } from "@/lib/products";
 import { buildMetadata } from "@/seo/metadata";
 import type { Locale } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
+import { CustomerReviewsSlider } from "@/components/CustomerReviewsSlider";
 import { ProductCard } from "@/components/ProductCard";
 
 export async function generateMetadata({
@@ -29,86 +29,121 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   const home = await getTranslations({ locale, namespace: "home" });
+  const styleImages: Record<string, string> = {
+    casual: "image 11.png",
+    formal: "image 13.png",
+    party: "image 12.png",
+    gym: "image 14.png",
+  };
+  const styleCards: Record<string, { card: string; image: string }> = {
+    casual: {
+      card: "md:col-span-1",
+      image: "right-0 w-[78%] object-right-bottom",
+    },
+    formal: {
+      card: "md:col-span-2",
+      image: "right-10 w-[76%] object-left-bottom",
+    },
+    party: {
+      card: "md:col-span-2",
+      image: "right-[18%] w-[70%] object-left-bottom",
+    },
+    gym: {
+      card: "md:col-span-1",
+      image: "right-0 w-[82%] object-right-bottom",
+    },
+  };
 
   return (
     <>
       <section className="overflow-hidden bg-[#F2F0F1]">
-        <div className="mx-auto flex min-h-[590px] max-w-[1240px] flex-col px-4 pt-8 md:flex-row md:items-center md:justify-between md:gap-8 md:px-6 lg:px-8 lg:pt-0">
-          {/* Left content */}
-          <div className="relative z-10 w-full md:w-1/2">
-            <h1
-              className="max-w-[577px] uppercase font-black leading-tight tracking-tight
-                     text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] lg:tracking-[-2px]"
-            >
-              FIND CLOTHES
-              <br />
-              THAT MATCHES
-              <br />
-              YOUR STYLE
+        <div className="mx-auto flex max-w-[1240px] flex-col px-4 md:min-h-[540px] md:flex-row md:items-stretch md:justify-between md:px-6 lg:px-8">
+          <div className="relative z-10 flex w-full flex-col justify-center py-10 md:w-[46%] md:pb-12 md:pt-14">
+            <h1 className="shop-heading max-w-[585px] text-[36px] leading-[36px] sm:text-[44px] sm:leading-[44px] lg:text-[64px] lg:leading-[64px]">
+              {home("title")}
             </h1>
-            <p
-              className="mt-4 max-w-[550px] text-[14px] leading-[22px] text-gray-600
-                     sm:text-base lg:mt-6 lg:text-lg lg:leading-8"
-            >
-              Browse through our diverse range of meticulously crafted garments,
-              designed to bring out your individuality and cater to your sense
-              of style.
+
+            <p className="mt-5 max-w-[545px] text-sm leading-5 text-[#666666] sm:text-base lg:mt-6">
+              {home("subtitle")}
             </p>
-            <button
-              className="mt-5 w-full rounded-full bg-black px-12 py-4 text-white transition hover:opacity-90
-                         sm:w-auto lg:mt-8"
+
+            <Link
+              className="btn-primary mt-6 w-full sm:w-[210px] lg:mt-8"
+              href="/category/casual"
             >
-              Shop Now
-            </button>
-            {/* الإحصائيات كما هى… */}
+              {home("cta")}
+            </Link>
+
+            <div className="mt-10 grid w-full grid-cols-2 gap-y-6 text-center lg:mt-12 lg:flex lg:items-center lg:gap-7 lg:text-left">
+              <div>
+                <h3 className="text-[30px] font-bold leading-none lg:text-[40px]">
+                  200+
+                </h3>
+                <p className="mt-1 text-xs text-[#666666] lg:text-sm">
+                  International Brands
+                </p>
+              </div>
+
+              <div className="hidden h-14 w-px bg-black/10 lg:block" />
+
+              <div className="border-l border-black/10 lg:border-l-0">
+                <h3 className="text-[30px] font-bold leading-none lg:text-[40px]">
+                  2,000+
+                </h3>
+                <p className="mt-1 text-xs text-[#666666] lg:text-sm">
+                  High-Quality Products
+                </p>
+              </div>
+
+              <div className="hidden h-14 w-px bg-black/10 lg:block" />
+
+              <div className="col-span-2 lg:col-span-1">
+                <h3 className="text-[30px] font-bold leading-none lg:text-[40px]">
+                  30,000+
+                </h3>
+                <p className="mt-1 text-xs text-[#666666] lg:text-sm">
+                  Happy Customers
+                </p>
+              </div>
+            </div>
           </div>
 
-          {/* Right image */}
-          <div className="relative mt-6 w-full md:mt-0 md:w-1/2">
-            {/* صورة الموبايل: داخل الـ flow بدون absolute */}
+          <div className="relative flex h-[420px] w-full items-end justify-center overflow-hidden md:h-auto md:w-[54%] md:justify-end">
             <img
-              src="/images/Rectangle 2.svg"
+              src="/images/Rectangle 2.jpg"
               alt="Fashion Models"
-              className="block md:hidden mx-auto h-[500px] w-auto max-w-none object-contain"
+              className="h-[112%] w-auto max-w-none translate-y-8 object-cover md:h-[610px] md:translate-y-12 lg:h-[635px] lg:translate-y-14 xl:h-[650px]"
             />
 
-            {/* صورة التابلت: كبيرة مع انزياح بسيط لليمين */}
-            <img
-              src="/images/Rectangle 2.svg"
-              alt="Fashion Models"
-              className="hidden md:block lg:hidden mx-auto h-[550px] w-auto max-w-none md:-ml-10 object-contain"
+            <span
+              aria-hidden
+              className="sparkle sparkle-large absolute right-8 top-8 h-16 w-16 md:right-8 md:top-20 lg:h-20 lg:w-20"
             />
-
-            {/* صورة الديسكتوب: absolute لتخرج من حدود القسم */}
-            <img
-              src="/images/Rectangle 2.svg"
-              alt="Fashion Models"
-              className="hidden lg:block absolute bottom-[-75px] right-[-40px] h-[620px] w-auto max-w-none"
+            <span
+              aria-hidden
+              className="sparkle sparkle-small absolute left-4 top-36 h-10 w-10 md:left-0 md:top-64"
             />
-
-            {/* النجوم تظل absolute كما هى */}
-            <span className="absolute right-8 top-8 text-7xl text-black lg:right-8 lg:top-20 lg:text-8xl">
-              ✦
-            </span>
-            <span className="absolute left-2 top-36 text-5xl text-black lg:left-0 lg:top-64">
-              ✦
-            </span>
           </div>
         </div>
       </section>
-      <section id="brands" className="bg-black py-8 text-white">
-        <div className="container-page flex flex-wrap items-center justify-between gap-8 text-3xl font-black tracking-wide md:text-4xl">
-          <span>VERSACE</span>
-          <span>ZARA</span>
-          <span>GUCCI</span>
-          <span>PRADA</span>
-          <span>Calvin Klein</span>
+
+      <section id="brands" className="bg-black py-7 text-white">
+        <div className="container-page flex flex-wrap items-center justify-center gap-x-12 gap-y-5 text-center text-3xl font-black md:justify-between md:text-4xl">
+          <span className="font-serif font-normal tracking-tight">VERSACE</span>
+          <span className="font-serif tracking-tight">ZARA</span>
+          <span className="font-serif font-normal tracking-[0.16em]">
+            GUCCI
+          </span>
+          <span className="font-serif tracking-tight">PRADA</span>
+          <span className="font-sans font-normal tracking-tight">
+            Calvin Klein
+          </span>
         </div>
       </section>
 
       <section id="new-arrivals" className="container-page py-16">
         <h2 className="section-title">{home("preview")}</h2>
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 md:gap-5 lg:grid-cols-4">
           {products.slice(0, 4).map((product) => (
             <ProductCard
               key={product.id}
@@ -127,7 +162,7 @@ export default async function HomePage({
 
       <section className="container-page border-t border-black/10 py-16">
         <h2 className="section-title">{home("topSelling")}</h2>
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 md:gap-5 lg:grid-cols-4">
           {products.slice(4, 8).map((product) => (
             <ProductCard
               key={product.id}
@@ -146,46 +181,41 @@ export default async function HomePage({
 
       <section
         id="categories"
-        className="container-page rounded-[40px] bg-[var(--background-soft)] p-8 md:p-14"
+        className="container-page rounded-[40px] bg-[var(--background-soft)] px-6 py-10 md:px-14 md:py-16"
       >
         <h2 className="section-title">{home("featuredCategories")}</h2>
         <div className="mt-10 grid auto-rows-[190px] gap-5 md:grid-cols-3">
-          {categories.map((category, index) => (
-            <Link
-              key={category.slug}
-              href={`/category/${category.slug}`}
-              className={`relative overflow-hidden rounded-[20px] bg-white p-8 text-3xl font-bold ${index === 1 || index === 2 ? "md:col-span-2" : ""}`}
-            >
-              {locale === "ar" ? category.name_ar : category.name_en}
-              <Image
-                src={products[index + 1]?.image ?? "/images/basic-tee.svg"}
-                alt=""
-                width={340}
-                height={240}
-                className="absolute bottom-0 end-0 h-full w-1/2 object-contain"
-              />
-            </Link>
-          ))}
+          {categories.map((category, index) => {
+            const layout = styleCards[category.slug] ?? styleCards.casual;
+
+            return (
+              <Link
+                key={category.slug}
+                href={`/category/${category.slug}`}
+                className={`group relative overflow-hidden rounded-[8px] bg-white p-6 text-2xl font-bold text-black transition duration-300 hover:-translate-y-1 hover:shadow-xl ${layout.card}`}
+              >
+                <span className="relative z-10 block">
+                  {locale === "ar" ? category.name_ar : category.name_en}
+                </span>
+                <img
+                  src={encodeURI(
+                    `/images/STYLE_Section/${styleImages[category.slug] ?? `image ${11 + index}.png`}`,
+                  )}
+                  alt={category.name_en}
+                  className={`absolute bottom-0 h-full max-w-none object-contain transition duration-300 group-hover:scale-105 ${layout.image}`}
+                />
+              </Link>
+            );
+          })}
         </div>
       </section>
 
-      <section className="container-page py-20">
-        <h2 className="text-4xl font-black uppercase md:text-5xl">
-          {home("customers")}
-        </h2>
-        <div className="mt-8 grid gap-5 md:grid-cols-3">
-          {["Sarah M.", "Alex K.", "James L."].map((name) => (
-            <article key={name} className="card p-6">
-              <p className="stars">★★★★★</p>
-              <h3 className="mt-3 font-bold">
-                {name} <span className="text-green-500">●</span>
-              </h3>
-              <p className="mt-3 text-sm leading-6 text-muted">
-                I'm blown away by the quality and style of the clothes I
-                received from Shop.co. The range of options is impressive.
-              </p>
-            </article>
-          ))}
+      <section className="w-full overflow-hidden py-20">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-black uppercase md:text-5xl">
+            {home("customers")}
+          </h2>
+          <CustomerReviewsSlider />
         </div>
       </section>
     </>

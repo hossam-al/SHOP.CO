@@ -100,7 +100,7 @@ export function CartClient() {
           <div className="mt-6 flex gap-3">
             <label className="relative flex-1">
               <Tag className="absolute start-4 top-4 h-5 w-5 text-black/40" />
-              <input className="field ps-12" placeholder={t("promo")} />
+              <input className="field field-icon" placeholder={t("promo")} />
             </label>
             <button className="btn-primary px-8">{t("apply")}</button>
           </div>
