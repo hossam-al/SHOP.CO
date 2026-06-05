@@ -2,7 +2,7 @@
 
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { CartLine } from "@/types/product";
+import type { CartLine, Order } from "@/types/product";
 
 type User = {
   name: string;
@@ -11,6 +11,7 @@ type User = {
 
 type ShopState = {
   cart: CartLine[];
+  orders: Order[];
   wishlist: string[];
   user: User | null;
   theme: "light" | "dark";
@@ -18,8 +19,10 @@ type ShopState = {
   updateQuantity: (productId: string, quantity: number) => void;
   removeFromCart: (productId: string) => void;
   clearCart: () => void;
+  addOrder: (order: Order) => void;
   toggleWishlist: (productId: string) => void;
   login: (user: User) => void;
+  updateUser: (user: User) => void;
   logout: () => void;
   toggleTheme: () => void;
 };
@@ -28,6 +31,7 @@ export const useShopStore = create<ShopState>()(
   persist(
     (set) => ({
       cart: [],
+      orders: [],
       wishlist: [],
       user: null,
       theme: "light",
@@ -56,6 +60,7 @@ export const useShopStore = create<ShopState>()(
       removeFromCart: (productId) =>
         set((state) => ({ cart: state.cart.filter((line) => line.productId !== productId) })),
       clearCart: () => set({ cart: [] }),
+      addOrder: (order) => set((state) => ({ orders: [order, ...state.orders] })),
       toggleWishlist: (productId) =>
         set((state) => ({
           wishlist: state.wishlist.includes(productId)
@@ -63,6 +68,7 @@ export const useShopStore = create<ShopState>()(
             : [...state.wishlist, productId],
         })),
       login: (user) => set({ user }),
+      updateUser: (user) => set({ user }),
       logout: () => set({ user: null }),
       toggleTheme: () =>
         set((state) => ({ theme: state.theme === "light" ? "dark" : "light" })),

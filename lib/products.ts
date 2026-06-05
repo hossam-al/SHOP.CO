@@ -7,7 +7,7 @@ export const categories: Category[] = [
   { slug: "casual", name_en: "Casual", name_ar: "كاجوال" },
   { slug: "formal", name_en: "Formal", name_ar: "رسمي" },
   { slug: "party", name_en: "Party", name_ar: "حفلات" },
-  { slug: "gym", name_en: "Gym", name_ar: "جيم" },
+  { slug: "gym", name_en: "Gym", name_ar: "رياضي" },
 ];
 
 export function getProducts() {

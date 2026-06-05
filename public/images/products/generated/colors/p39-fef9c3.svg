@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Moss Graphic Night Tee 3">
+  <rect width="800" height="800" rx="36" fill="#eff2f6"/>
+  
+    <ellipse cx="400" cy="720" rx="170" ry="28" fill="#000" opacity="0.12"/>
+    <circle cx="400" cy="395" r="292" fill="#fffdee" opacity="0.42"/>
+    <path d="M250 215 330 150H470L550 215 525 675H275Z" fill="#fef9c3" stroke="#c1bd94" stroke-opacity="0.75" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M400 170V660M345 185 400 285M455 185 400 285" stroke="#111827" stroke-opacity="0.25" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="400" cy="335" r="15" fill="#ca8a04" opacity="0.9"/><circle cx="400" cy="410" r="15" fill="#ca8a04" opacity="0.9"/><circle cx="400" cy="485" r="15" fill="#ca8a04" opacity="0.9"/><circle cx="400" cy="560" r="15" fill="#ca8a04" opacity="0.9"/>
+  
+  <text x="400" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#172033" opacity="0.42">PARTY</text>
+</svg>

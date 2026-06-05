@@ -11,6 +11,8 @@
   --background-soft: #f2f0f1;
   --soft: #f2f0f1;
   --border: #e5e5e5;
+  --hover-soft: rgba(0, 0, 0, 0.05);
+  --surface-tint: rgba(0, 0, 0, 0.03);
   --accent: #000000;
   --accent-strong: #000000;
   --warning: #ffc633;
@@ -31,12 +33,15 @@ h2,
 }
 .dark {
   color-scheme: dark;
-  --bg: #111827;
+  --bg: #0f172a;
   --fg: #f9fafb;
-  --muted: #cbd5e1;
-  --card: #1f2937;
-  --border: #374151;
-  --soft: #1f2937;
+  --muted: #aeb9c9;
+  --card: #172033;
+  --background-soft: #202a3d;
+  --border: #334155;
+  --soft: #202a3d;
+  --hover-soft: rgba(255, 255, 255, 0.08);
+  --surface-tint: rgba(255, 255, 255, 0.06);
   --accent: #f9fafb;
   --accent-strong: #f9fafb;
 }
@@ -111,6 +116,7 @@ textarea {
   border: 1px solid var(--border);
   border-radius: 20px;
   background: var(--card);
+  color: var(--fg);
 }
 
 .text-muted {
@@ -200,7 +206,7 @@ textarea {
   appearance: none;
   border-radius: 999px;
   border: 0;
-  background: #000000;
+  background: var(--accent);
   cursor: pointer;
 }
 
@@ -210,13 +216,13 @@ textarea {
   width: 28px;
   border-radius: 999px;
   border: 0;
-  background: #000000;
+  background: var(--accent);
   cursor: pointer;
 }
 
 .sparkle {
   display: block;
-  background: #000000;
+  background: var(--accent);
   clip-path: polygon(50% 0%, 61% 37%, 100% 50%, 61% 63%, 50% 100%, 39% 63%, 0% 50%, 39% 37%);
   transform-origin: center;
   animation: star-twinkle 2.8s ease-in-out infinite;
@@ -309,4 +315,45 @@ textarea {
 
 .skip-link:focus {
   top: 12px;
+}
+
+.dark :where(.bg-white, .bg-white\/95) {
+  background-color: var(--card);
+  color: var(--fg);
+}
+
+.dark :where(.text-black) {
+  color: var(--fg);
+}
+
+.dark :where(.border-black, .border-black\/10, .border-black\/20, .border-black\/30) {
+  border-color: var(--border);
+}
+
+.dark :where(.text-black\/30, .text-black\/40, .text-black\/50, .text-black\/55, .text-black\/60, .text-black\/70, .text-\[\#666666\]) {
+  color: var(--muted);
+}
+
+.dark :where(.bg-\[\#F2F0F1\], .bg-\[var\(--background-soft\)\]) {
+  background-color: var(--background-soft);
+}
+
+.dark :where(.bg-black\/5, .bg-black\/\[0\.03\]) {
+  background-color: var(--surface-tint);
+}
+
+.dark :where(.hover\:bg-black\/5:hover, .hover\:bg-black\/\[0\.03\]:hover) {
+  background-color: var(--hover-soft);
+}
+
+.dark :where(.hover\:bg-red-50:hover) {
+  background-color: rgba(239, 68, 68, 0.14);
+}
+
+.dark :where(.hover\:text-black:hover) {
+  color: var(--fg);
+}
+
+.dark :where(.hover\:border-black:hover, .hover\:border-black\/30:hover) {
+  border-color: var(--fg);
 }

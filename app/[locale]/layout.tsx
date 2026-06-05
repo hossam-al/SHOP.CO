@@ -3,9 +3,10 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { ThemeSync } from "@/components/ThemeSync";
+import { Footer } from "@/components/layout/Footer";
+import { Header } from "@/components/layout/Header";
+import { PromoBanner } from "@/components/layout/PromoBanner";
+import { ThemeSync } from "@/components/layout/ThemeSync";
 import { routing, type Locale } from "@/i18n/routing";
 
 export const metadata: Metadata = {
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
           <a className="skip-link" href="#main-content">
             Skip to content
           </a>
+          <PromoBanner />
           <Header locale={typedLocale} />
           <main id="main-content">{children}</main>
           <Footer locale={typedLocale} />

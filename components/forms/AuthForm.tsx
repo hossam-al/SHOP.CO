@@ -30,7 +30,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
   function submit(values: AuthValues) {
     login({ name: values.name || values.email.split("@")[0], email: values.email });
     setMessage(mode === "signup" ? f("signupSuccess") : f("loginSuccess"));
-    setTimeout(() => router.push("/"), 500);
+    setTimeout(() => router.push("/home"), 500);
   }
 
   return (
@@ -56,7 +56,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
         {mode === "signup" ? site("signup") : site("login")}
       </button>
       <p aria-live="polite" className="text-center text-green-700">{message}</p>
-      <Link className="text-center font-bold text-[var(--accent)]" href={mode === "signup" ? "/login" : "/signup"}>
+      <Link className="text-center font-bold text-[var(--accent)]" href={mode === "signup" ? "/LOGIN" : "/SINUP"}>
         {mode === "signup" ? site("login") : site("signup")}
       </Link>
     </form>

@@ -5,13 +5,22 @@
     "name_ar": "تي شيرت بتفاصيل شريطية",
     "price": 120,
     "category": "casual",
-    "image": "/images/product_image/1.png",
+    "image": "/images/products/1.png",
     "description_en": "Soft cotton t-shirt with minimal tape details and an everyday relaxed fit.",
     "description_ar": "تي شيرت قطني ناعم بتفاصيل بسيطة وقصة مريحة للاستخدام اليومي.",
     "inStock": true,
     "rating": 4.5,
-    "colors": ["#111111", "#ffffff", "#334155"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p2",
@@ -21,13 +30,22 @@
     "oldPrice": 260,
     "discount": 20,
     "category": "casual",
-    "image": "/images/product_image/2.png",
+    "image": "/images/products/2.png",
     "description_en": "Skinny fit denim jeans with a modern wash and comfortable stretch.",
-    "description_ar": "جينز سكيني بغسلة عصرية ومرونة مريحة.",
+    "description_ar": "جينز سكيني بغسلة عصرية ومرونة مريحة للحركة اليومية.",
     "inStock": true,
     "rating": 3.5,
-    "colors": ["#1d4ed8", "#111827", "#64748b"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#1d4ed8",
+      "#111827",
+      "#64748b"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p3",
@@ -35,13 +53,22 @@
     "name_ar": "قميص كاروهات",
     "price": 180,
     "category": "formal",
-    "image": "/images/product_image/3.png",
+    "image": "/images/products/3.png",
     "description_en": "Classic checkered shirt crafted for smart casual layering.",
     "description_ar": "قميص كاروهات كلاسيكي مناسب للإطلالات الذكية والكاجوال.",
     "inStock": true,
     "rating": 4.5,
-    "colors": ["#991b1b", "#1e3a8a", "#111827"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#991b1b",
+      "#1e3a8a",
+      "#111827"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p4",
@@ -51,13 +78,22 @@
     "oldPrice": 160,
     "discount": 30,
     "category": "casual",
-    "image": "/images/product_image/4.png",
+    "image": "/images/products/4.png",
     "description_en": "Sporty striped t-shirt with contrast sleeves and a clean collar.",
     "description_ar": "تي شيرت رياضي مخطط بأكمام متباينة وياقة نظيفة.",
     "inStock": true,
     "rating": 4.5,
-    "colors": ["#ea580c", "#111111", "#ffffff"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#ea580c",
+      "#111111",
+      "#ffffff"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p5",
@@ -67,13 +103,22 @@
     "oldPrice": 232,
     "discount": 20,
     "category": "formal",
-    "image": "/images/product_image/5.png",
+    "image": "/images/products/5.png",
     "description_en": "Vertical striped shirt with a polished silhouette and light fabric.",
     "description_ar": "قميص مخطط طولي بقصة أنيقة وقماش خفيف.",
     "inStock": true,
     "rating": 5,
-    "colors": ["#6b7f68", "#ffffff", "#111111"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#6b7f68",
+      "#ffffff",
+      "#111111"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p6",
@@ -81,13 +126,22 @@
     "name_ar": "تي شيرت برسمة جرافيك",
     "price": 145,
     "category": "party",
-    "image": "/images/product_image/6.png",
+    "image": "/images/products/6.png",
     "description_en": "Bold graphic t-shirt with vibrant color and streetwear energy.",
     "description_ar": "تي شيرت جرافيك بلون قوي ولمسة ستريت وير.",
     "inStock": true,
     "rating": 4,
-    "colors": ["#c75d2c", "#111111", "#ffffff"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#c75d2c",
+      "#111111",
+      "#ffffff"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p7",
@@ -95,13 +149,22 @@
     "name_ar": "شورت برمودا واسع",
     "price": 80,
     "category": "gym",
-    "image": "/images/product_image/7.png",
+    "image": "/images/products/7.png",
     "description_en": "Loose fit denim bermuda shorts designed for relaxed summer outfits.",
     "description_ar": "شورت برمودا جينز واسع لإطلالات صيفية مريحة.",
     "inStock": true,
     "rating": 3,
-    "colors": ["#60a5fa", "#111827", "#e5e7eb"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#60a5fa",
+      "#111827",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p8",
@@ -109,13 +172,21 @@
     "name_ar": "جينز سكيني باهت",
     "price": 210,
     "category": "casual",
-    "image": "/images/product_image/8.png",
+    "image": "/images/products/8.png",
     "description_en": "Faded black skinny jeans with a sharp slim profile.",
     "description_ar": "جينز سكيني أسود باهت بقصة حادة ونحيفة.",
     "inStock": true,
     "rating": 4.5,
-    "colors": ["#111111", "#374151"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#111111",
+      "#374151"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
   },
   {
     "id": "p9",
@@ -123,12 +194,2477 @@
     "name_ar": "بولو بتفاصيل طرفية",
     "price": 180,
     "category": "casual",
-    "image": "/images/product_image/.png",
+    "image": "/images/products/5.png",
     "description_en": "Textured polo shirt with contrast tipping details.",
     "description_ar": "قميص بولو محاك بتفاصيل متباينة على الأطراف.",
     "inStock": true,
     "rating": 4.5,
-    "colors": ["#b56b77", "#111111", "#ffffff"],
-    "sizes": ["Small", "Medium", "Large", "X-Large"]
+    "colors": [
+      "#b56b77",
+      "#111111",
+      "#ffffff"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
+  },
+  {
+    "id": "p10",
+    "name_en": "Black Essential Cotton Tee 1",
+    "name_ar": "قطعة كاجوال عصرية 1",
+    "price": 113,
+    "category": "casual",
+    "image": "/images/products/generated/p10.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 130,
+    "discount": 15
+  },
+  {
+    "id": "p11",
+    "name_en": "Ivory Relaxed Denim Jacket 1",
+    "name_ar": "قطعة كاجوال عصرية 2",
+    "price": 285,
+    "category": "casual",
+    "image": "/images/products/generated/p11.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 342,
+    "discount": 20
+  },
+  {
+    "id": "p12",
+    "name_en": "Navy Oxford Button Shirt 1",
+    "name_ar": "قطعة رسمية أنيقة 3",
+    "price": 217,
+    "category": "formal",
+    "image": "/images/products/generated/p12.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 271,
+    "discount": 25
+  },
+  {
+    "id": "p13",
+    "name_en": "Olive Tailored Chino Pants 1",
+    "name_ar": "قطعة رسمية أنيقة 4",
+    "price": 249,
+    "category": "formal",
+    "image": "/images/products/generated/p13.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": false,
+    "rating": 3.5,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 324,
+    "discount": 30
+  },
+  {
+    "id": "p14",
+    "name_en": "Burgundy Satin Party Shirt 1",
+    "name_ar": "قطعة حفلات مميزة 5",
+    "price": 266,
+    "category": "party",
+    "image": "/images/products/generated/p14.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 359,
+    "discount": 35
+  },
+  {
+    "id": "p15",
+    "name_en": "Slate Graphic Night Tee 1",
+    "name_ar": "قطعة حفلات مميزة 6",
+    "price": 203,
+    "category": "party",
+    "image": "/images/products/generated/p15.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 284,
+    "discount": 40
+  },
+  {
+    "id": "p16",
+    "name_en": "Sand Performance Training Shorts 1",
+    "name_ar": "قطعة رياضية مريحة 7",
+    "price": 90,
+    "category": "gym",
+    "image": "/images/products/generated/p16.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p17",
+    "name_en": "Sky Active Zip Hoodie 1",
+    "name_ar": "قطعة رياضية مريحة 8",
+    "price": 182,
+    "category": "gym",
+    "image": "/images/products/generated/p17.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 200,
+    "discount": 10
+  },
+  {
+    "id": "p18",
+    "name_en": "Charcoal Premium Knit Polo 1",
+    "name_ar": "قطعة كاجوال عصرية 9",
+    "price": 179,
+    "category": "casual",
+    "image": "/images/products/generated/p18.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 206,
+    "discount": 15
+  },
+  {
+    "id": "p19",
+    "name_en": "Moss Slim Formal Blazer 1",
+    "name_ar": "قطعة رسمية أنيقة 10",
+    "price": 366,
+    "category": "formal",
+    "image": "/images/products/generated/p19.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 439,
+    "discount": 20
+  },
+  {
+    "id": "p20",
+    "name_en": "Black Statement Overshirt 1",
+    "name_ar": "قطعة حفلات مميزة 11",
+    "price": 263,
+    "category": "party",
+    "image": "/images/products/generated/p20.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 329,
+    "discount": 25
+  },
+  {
+    "id": "p21",
+    "name_en": "Ivory Breathable Gym Tank 1",
+    "name_ar": "قطعة رياضية مريحة 12",
+    "price": 110,
+    "category": "gym",
+    "image": "/images/products/generated/p21.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 143,
+    "discount": 30
+  },
+  {
+    "id": "p22",
+    "name_en": "Navy Essential Cotton Tee 2",
+    "name_ar": "قطعة كاجوال عصرية 13",
+    "price": 145,
+    "category": "casual",
+    "image": "/images/products/generated/p22.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 196,
+    "discount": 35
+  },
+  {
+    "id": "p23",
+    "name_en": "Olive Relaxed Denim Jacket 2",
+    "name_ar": "قطعة كاجوال عصرية 14",
+    "price": 317,
+    "category": "casual",
+    "image": "/images/products/generated/p23.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 444,
+    "discount": 40
+  },
+  {
+    "id": "p24",
+    "name_en": "Burgundy Oxford Button Shirt 2",
+    "name_ar": "قطعة رسمية أنيقة 15",
+    "price": 194,
+    "category": "formal",
+    "image": "/images/products/generated/p24.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p25",
+    "name_en": "Slate Tailored Chino Pants 2",
+    "name_ar": "قطعة رسمية أنيقة 16",
+    "price": 226,
+    "category": "formal",
+    "image": "/images/products/generated/p25.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 249,
+    "discount": 10
+  },
+  {
+    "id": "p26",
+    "name_en": "Sand Satin Party Shirt 2",
+    "name_ar": "قطعة حفلات مميزة 17",
+    "price": 243,
+    "category": "party",
+    "image": "/images/products/generated/p26.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": false,
+    "rating": 4,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 279,
+    "discount": 15
+  },
+  {
+    "id": "p27",
+    "name_en": "Sky Graphic Night Tee 2",
+    "name_ar": "قطعة حفلات مميزة 18",
+    "price": 180,
+    "category": "party",
+    "image": "/images/products/generated/p27.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 216,
+    "discount": 20
+  },
+  {
+    "id": "p28",
+    "name_en": "Charcoal Performance Training Shorts 2",
+    "name_ar": "قطعة رياضية مريحة 19",
+    "price": 122,
+    "category": "gym",
+    "image": "/images/products/generated/p28.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 153,
+    "discount": 25
+  },
+  {
+    "id": "p29",
+    "name_en": "Moss Active Zip Hoodie 2",
+    "name_ar": "قطعة رياضية مريحة 20",
+    "price": 214,
+    "category": "gym",
+    "image": "/images/products/generated/p29.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 278,
+    "discount": 30
+  },
+  {
+    "id": "p30",
+    "name_en": "Black Premium Knit Polo 2",
+    "name_ar": "قطعة كاجوال عصرية 21",
+    "price": 211,
+    "category": "casual",
+    "image": "/images/products/generated/p30.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 285,
+    "discount": 35
+  },
+  {
+    "id": "p31",
+    "name_en": "Ivory Slim Formal Blazer 2",
+    "name_ar": "قطعة رسمية أنيقة 22",
+    "price": 398,
+    "category": "formal",
+    "image": "/images/products/generated/p31.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 557,
+    "discount": 40
+  },
+  {
+    "id": "p32",
+    "name_en": "Navy Statement Overshirt 2",
+    "name_ar": "قطعة حفلات مميزة 23",
+    "price": 240,
+    "category": "party",
+    "image": "/images/products/generated/p32.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ]
+  },
+  {
+    "id": "p33",
+    "name_en": "Olive Breathable Gym Tank 2",
+    "name_ar": "قطعة رياضية مريحة 24",
+    "price": 87,
+    "category": "gym",
+    "image": "/images/products/generated/p33.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 96,
+    "discount": 10
+  },
+  {
+    "id": "p34",
+    "name_en": "Burgundy Essential Cotton Tee 3",
+    "name_ar": "قطعة كاجوال عصرية 25",
+    "price": 122,
+    "category": "casual",
+    "image": "/images/products/generated/p34.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 140,
+    "discount": 15
+  },
+  {
+    "id": "p35",
+    "name_en": "Slate Relaxed Denim Jacket 3",
+    "name_ar": "قطعة كاجوال عصرية 26",
+    "price": 294,
+    "category": "casual",
+    "image": "/images/products/generated/p35.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 353,
+    "discount": 20
+  },
+  {
+    "id": "p36",
+    "name_en": "Sand Oxford Button Shirt 3",
+    "name_ar": "قطعة رسمية أنيقة 27",
+    "price": 226,
+    "category": "formal",
+    "image": "/images/products/generated/p36.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 283,
+    "discount": 25
+  },
+  {
+    "id": "p37",
+    "name_en": "Sky Tailored Chino Pants 3",
+    "name_ar": "قطعة رسمية أنيقة 28",
+    "price": 258,
+    "category": "formal",
+    "image": "/images/products/generated/p37.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 335,
+    "discount": 30
+  },
+  {
+    "id": "p38",
+    "name_en": "Charcoal Satin Party Shirt 3",
+    "name_ar": "قطعة حفلات مميزة 29",
+    "price": 275,
+    "category": "party",
+    "image": "/images/products/generated/p38.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 371,
+    "discount": 35
+  },
+  {
+    "id": "p39",
+    "name_en": "Moss Graphic Night Tee 3",
+    "name_ar": "قطعة حفلات مميزة 30",
+    "price": 212,
+    "category": "party",
+    "image": "/images/products/generated/p39.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": false,
+    "rating": 4.3,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 297,
+    "discount": 40
+  },
+  {
+    "id": "p40",
+    "name_en": "Black Performance Training Shorts 3",
+    "name_ar": "قطعة رياضية مريحة 31",
+    "price": 99,
+    "category": "gym",
+    "image": "/images/products/generated/p40.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
+  },
+  {
+    "id": "p41",
+    "name_en": "Ivory Active Zip Hoodie 3",
+    "name_ar": "قطعة رياضية مريحة 32",
+    "price": 191,
+    "category": "gym",
+    "image": "/images/products/generated/p41.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 210,
+    "discount": 10
+  },
+  {
+    "id": "p42",
+    "name_en": "Navy Premium Knit Polo 3",
+    "name_ar": "قطعة كاجوال عصرية 33",
+    "price": 188,
+    "category": "casual",
+    "image": "/images/products/generated/p42.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 216,
+    "discount": 15
+  },
+  {
+    "id": "p43",
+    "name_en": "Olive Slim Formal Blazer 3",
+    "name_ar": "قطعة رسمية أنيقة 34",
+    "price": 375,
+    "category": "formal",
+    "image": "/images/products/generated/p43.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 450,
+    "discount": 20
+  },
+  {
+    "id": "p44",
+    "name_en": "Burgundy Statement Overshirt 3",
+    "name_ar": "قطعة حفلات مميزة 35",
+    "price": 272,
+    "category": "party",
+    "image": "/images/products/generated/p44.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 340,
+    "discount": 25
+  },
+  {
+    "id": "p45",
+    "name_en": "Slate Breathable Gym Tank 3",
+    "name_ar": "قطعة رياضية مريحة 36",
+    "price": 119,
+    "category": "gym",
+    "image": "/images/products/generated/p45.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 155,
+    "discount": 30
+  },
+  {
+    "id": "p46",
+    "name_en": "Sand Essential Cotton Tee 4",
+    "name_ar": "قطعة كاجوال عصرية 37",
+    "price": 154,
+    "category": "casual",
+    "image": "/images/products/generated/p46.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 208,
+    "discount": 35
+  },
+  {
+    "id": "p47",
+    "name_en": "Sky Relaxed Denim Jacket 4",
+    "name_ar": "قطعة كاجوال عصرية 38",
+    "price": 326,
+    "category": "casual",
+    "image": "/images/products/generated/p47.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 456,
+    "discount": 40
+  },
+  {
+    "id": "p48",
+    "name_en": "Charcoal Oxford Button Shirt 4",
+    "name_ar": "قطعة رسمية أنيقة 39",
+    "price": 203,
+    "category": "formal",
+    "image": "/images/products/generated/p48.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p49",
+    "name_en": "Moss Tailored Chino Pants 4",
+    "name_ar": "قطعة رسمية أنيقة 40",
+    "price": 235,
+    "category": "formal",
+    "image": "/images/products/generated/p49.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 259,
+    "discount": 10
+  },
+  {
+    "id": "p50",
+    "name_en": "Black Satin Party Shirt 4",
+    "name_ar": "قطعة حفلات مميزة 41",
+    "price": 252,
+    "category": "party",
+    "image": "/images/products/generated/p50.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 290,
+    "discount": 15
+  },
+  {
+    "id": "p51",
+    "name_en": "Ivory Graphic Night Tee 4",
+    "name_ar": "قطعة حفلات مميزة 42",
+    "price": 189,
+    "category": "party",
+    "image": "/images/products/generated/p51.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 227,
+    "discount": 20
+  },
+  {
+    "id": "p52",
+    "name_en": "Navy Performance Training Shorts 4",
+    "name_ar": "قطعة رياضية مريحة 43",
+    "price": 131,
+    "category": "gym",
+    "image": "/images/products/generated/p52.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": false,
+    "rating": 4.7,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 164,
+    "discount": 25
+  },
+  {
+    "id": "p53",
+    "name_en": "Olive Active Zip Hoodie 4",
+    "name_ar": "قطعة رياضية مريحة 44",
+    "price": 223,
+    "category": "gym",
+    "image": "/images/products/generated/p53.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 290,
+    "discount": 30
+  },
+  {
+    "id": "p54",
+    "name_en": "Burgundy Premium Knit Polo 4",
+    "name_ar": "قطعة كاجوال عصرية 45",
+    "price": 220,
+    "category": "casual",
+    "image": "/images/products/generated/p54.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 297,
+    "discount": 35
+  },
+  {
+    "id": "p55",
+    "name_en": "Slate Slim Formal Blazer 4",
+    "name_ar": "قطعة رسمية أنيقة 46",
+    "price": 352,
+    "category": "formal",
+    "image": "/images/products/generated/p55.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 493,
+    "discount": 40
+  },
+  {
+    "id": "p56",
+    "name_en": "Sand Statement Overshirt 4",
+    "name_ar": "قطعة حفلات مميزة 47",
+    "price": 249,
+    "category": "party",
+    "image": "/images/products/generated/p56.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p57",
+    "name_en": "Sky Breathable Gym Tank 4",
+    "name_ar": "قطعة رياضية مريحة 48",
+    "price": 96,
+    "category": "gym",
+    "image": "/images/products/generated/p57.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 106,
+    "discount": 10
+  },
+  {
+    "id": "p58",
+    "name_en": "Charcoal Essential Cotton Tee 5",
+    "name_ar": "قطعة كاجوال عصرية 49",
+    "price": 131,
+    "category": "casual",
+    "image": "/images/products/generated/p58.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 151,
+    "discount": 15
+  },
+  {
+    "id": "p59",
+    "name_en": "Moss Relaxed Denim Jacket 5",
+    "name_ar": "قطعة كاجوال عصرية 50",
+    "price": 303,
+    "category": "casual",
+    "image": "/images/products/generated/p59.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 364,
+    "discount": 20
+  },
+  {
+    "id": "p60",
+    "name_en": "Black Oxford Button Shirt 5",
+    "name_ar": "قطعة رسمية أنيقة 51",
+    "price": 235,
+    "category": "formal",
+    "image": "/images/products/generated/p60.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 294,
+    "discount": 25
+  },
+  {
+    "id": "p61",
+    "name_en": "Ivory Tailored Chino Pants 5",
+    "name_ar": "قطعة رسمية أنيقة 52",
+    "price": 267,
+    "category": "formal",
+    "image": "/images/products/generated/p61.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 347,
+    "discount": 30
+  },
+  {
+    "id": "p62",
+    "name_en": "Navy Satin Party Shirt 5",
+    "name_ar": "قطعة حفلات مميزة 53",
+    "price": 284,
+    "category": "party",
+    "image": "/images/products/generated/p62.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 383,
+    "discount": 35
+  },
+  {
+    "id": "p63",
+    "name_en": "Olive Graphic Night Tee 5",
+    "name_ar": "قطعة حفلات مميزة 54",
+    "price": 166,
+    "category": "party",
+    "image": "/images/products/generated/p63.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 232,
+    "discount": 40
+  },
+  {
+    "id": "p64",
+    "name_en": "Burgundy Performance Training Shorts 5",
+    "name_ar": "قطعة رياضية مريحة 55",
+    "price": 108,
+    "category": "gym",
+    "image": "/images/products/generated/p64.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p65",
+    "name_en": "Slate Active Zip Hoodie 5",
+    "name_ar": "قطعة رياضية مريحة 56",
+    "price": 200,
+    "category": "gym",
+    "image": "/images/products/generated/p65.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": false,
+    "rating": 5,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 220,
+    "discount": 10
+  },
+  {
+    "id": "p66",
+    "name_en": "Sand Premium Knit Polo 5",
+    "name_ar": "قطعة كاجوال عصرية 57",
+    "price": 197,
+    "category": "casual",
+    "image": "/images/products/generated/p66.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 227,
+    "discount": 15
+  },
+  {
+    "id": "p67",
+    "name_en": "Sky Slim Formal Blazer 5",
+    "name_ar": "قطعة رسمية أنيقة 58",
+    "price": 384,
+    "category": "formal",
+    "image": "/images/products/generated/p67.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 461,
+    "discount": 20
+  },
+  {
+    "id": "p68",
+    "name_en": "Charcoal Statement Overshirt 5",
+    "name_ar": "قطعة حفلات مميزة 59",
+    "price": 281,
+    "category": "party",
+    "image": "/images/products/generated/p68.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 351,
+    "discount": 25
+  },
+  {
+    "id": "p69",
+    "name_en": "Moss Breathable Gym Tank 5",
+    "name_ar": "قطعة رياضية مريحة 60",
+    "price": 128,
+    "category": "gym",
+    "image": "/images/products/generated/p69.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 166,
+    "discount": 30
+  },
+  {
+    "id": "p70",
+    "name_en": "Black Essential Cotton Tee 6",
+    "name_ar": "قطعة كاجوال عصرية 61",
+    "price": 163,
+    "category": "casual",
+    "image": "/images/products/generated/p70.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 220,
+    "discount": 35
+  },
+  {
+    "id": "p71",
+    "name_en": "Ivory Relaxed Denim Jacket 6",
+    "name_ar": "قطعة كاجوال عصرية 62",
+    "price": 280,
+    "category": "casual",
+    "image": "/images/products/generated/p71.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 392,
+    "discount": 40
+  },
+  {
+    "id": "p72",
+    "name_en": "Navy Oxford Button Shirt 6",
+    "name_ar": "قطعة رسمية أنيقة 63",
+    "price": 212,
+    "category": "formal",
+    "image": "/images/products/generated/p72.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ]
+  },
+  {
+    "id": "p73",
+    "name_en": "Olive Tailored Chino Pants 6",
+    "name_ar": "قطعة رسمية أنيقة 64",
+    "price": 244,
+    "category": "formal",
+    "image": "/images/products/generated/p73.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 268,
+    "discount": 10
+  },
+  {
+    "id": "p74",
+    "name_en": "Burgundy Satin Party Shirt 6",
+    "name_ar": "قطعة حفلات مميزة 65",
+    "price": 261,
+    "category": "party",
+    "image": "/images/products/generated/p74.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 300,
+    "discount": 15
+  },
+  {
+    "id": "p75",
+    "name_en": "Slate Graphic Night Tee 6",
+    "name_ar": "قطعة حفلات مميزة 66",
+    "price": 198,
+    "category": "party",
+    "image": "/images/products/generated/p75.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 238,
+    "discount": 20
+  },
+  {
+    "id": "p76",
+    "name_en": "Sand Performance Training Shorts 6",
+    "name_ar": "قطعة رياضية مريحة 67",
+    "price": 140,
+    "category": "gym",
+    "image": "/images/products/generated/p76.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 175,
+    "discount": 25
+  },
+  {
+    "id": "p77",
+    "name_en": "Sky Active Zip Hoodie 6",
+    "name_ar": "قطعة رياضية مريحة 68",
+    "price": 232,
+    "category": "gym",
+    "image": "/images/products/generated/p77.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 302,
+    "discount": 30
+  },
+  {
+    "id": "p78",
+    "name_en": "Charcoal Premium Knit Polo 6",
+    "name_ar": "قطعة كاجوال عصرية 69",
+    "price": 229,
+    "category": "casual",
+    "image": "/images/products/generated/p78.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": false,
+    "rating": 3.2,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 309,
+    "discount": 35
+  },
+  {
+    "id": "p79",
+    "name_en": "Moss Slim Formal Blazer 6",
+    "name_ar": "قطعة رسمية أنيقة 70",
+    "price": 361,
+    "category": "formal",
+    "image": "/images/products/generated/p79.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 505,
+    "discount": 40
+  },
+  {
+    "id": "p80",
+    "name_en": "Black Statement Overshirt 6",
+    "name_ar": "قطعة حفلات مميزة 71",
+    "price": 258,
+    "category": "party",
+    "image": "/images/products/generated/p80.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ]
+  },
+  {
+    "id": "p81",
+    "name_en": "Ivory Breathable Gym Tank 6",
+    "name_ar": "قطعة رياضية مريحة 72",
+    "price": 105,
+    "category": "gym",
+    "image": "/images/products/generated/p81.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 116,
+    "discount": 10
+  },
+  {
+    "id": "p82",
+    "name_en": "Navy Essential Cotton Tee 7",
+    "name_ar": "قطعة كاجوال عصرية 73",
+    "price": 140,
+    "category": "casual",
+    "image": "/images/products/generated/p82.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 161,
+    "discount": 15
+  },
+  {
+    "id": "p83",
+    "name_en": "Olive Relaxed Denim Jacket 7",
+    "name_ar": "قطعة كاجوال عصرية 74",
+    "price": 312,
+    "category": "casual",
+    "image": "/images/products/generated/p83.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 374,
+    "discount": 20
+  },
+  {
+    "id": "p84",
+    "name_en": "Burgundy Oxford Button Shirt 7",
+    "name_ar": "قطعة رسمية أنيقة 75",
+    "price": 244,
+    "category": "formal",
+    "image": "/images/products/generated/p84.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 305,
+    "discount": 25
+  },
+  {
+    "id": "p85",
+    "name_en": "Slate Tailored Chino Pants 7",
+    "name_ar": "قطعة رسمية أنيقة 76",
+    "price": 276,
+    "category": "formal",
+    "image": "/images/products/generated/p85.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 359,
+    "discount": 30
+  },
+  {
+    "id": "p86",
+    "name_en": "Sand Satin Party Shirt 7",
+    "name_ar": "قطعة حفلات مميزة 77",
+    "price": 293,
+    "category": "party",
+    "image": "/images/products/generated/p86.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 396,
+    "discount": 35
+  },
+  {
+    "id": "p87",
+    "name_en": "Sky Graphic Night Tee 7",
+    "name_ar": "قطعة حفلات مميزة 78",
+    "price": 175,
+    "category": "party",
+    "image": "/images/products/generated/p87.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 245,
+    "discount": 40
+  },
+  {
+    "id": "p88",
+    "name_en": "Charcoal Performance Training Shorts 7",
+    "name_ar": "قطعة رياضية مريحة 79",
+    "price": 117,
+    "category": "gym",
+    "image": "/images/products/generated/p88.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p89",
+    "name_en": "Moss Active Zip Hoodie 7",
+    "name_ar": "قطعة رياضية مريحة 80",
+    "price": 209,
+    "category": "gym",
+    "image": "/images/products/generated/p89.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 230,
+    "discount": 10
+  },
+  {
+    "id": "p90",
+    "name_en": "Black Premium Knit Polo 7",
+    "name_ar": "قطعة كاجوال عصرية 81",
+    "price": 206,
+    "category": "casual",
+    "image": "/images/products/generated/p90.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 237,
+    "discount": 15
+  },
+  {
+    "id": "p91",
+    "name_en": "Ivory Slim Formal Blazer 7",
+    "name_ar": "قطعة رسمية أنيقة 82",
+    "price": 393,
+    "category": "formal",
+    "image": "/images/products/generated/p91.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": false,
+    "rating": 3.7,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 472,
+    "discount": 20
+  },
+  {
+    "id": "p92",
+    "name_en": "Navy Statement Overshirt 7",
+    "name_ar": "قطعة حفلات مميزة 83",
+    "price": 290,
+    "category": "party",
+    "image": "/images/products/generated/p92.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 363,
+    "discount": 25
+  },
+  {
+    "id": "p93",
+    "name_en": "Olive Breathable Gym Tank 7",
+    "name_ar": "قطعة رياضية مريحة 84",
+    "price": 137,
+    "category": "gym",
+    "image": "/images/products/generated/p93.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.1,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 178,
+    "discount": 30
+  },
+  {
+    "id": "p94",
+    "name_en": "Burgundy Essential Cotton Tee 8",
+    "name_ar": "قطعة كاجوال عصرية 85",
+    "price": 172,
+    "category": "casual",
+    "image": "/images/products/generated/p94.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 232,
+    "discount": 35
+  },
+  {
+    "id": "p95",
+    "name_en": "Slate Relaxed Denim Jacket 8",
+    "name_ar": "قطعة كاجوال عصرية 86",
+    "price": 289,
+    "category": "casual",
+    "image": "/images/products/generated/p95.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 405,
+    "discount": 40
+  },
+  {
+    "id": "p96",
+    "name_en": "Sand Oxford Button Shirt 8",
+    "name_ar": "قطعة رسمية أنيقة 87",
+    "price": 221,
+    "category": "formal",
+    "image": "/images/products/generated/p96.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p97",
+    "name_en": "Sky Tailored Chino Pants 8",
+    "name_ar": "قطعة رسمية أنيقة 88",
+    "price": 253,
+    "category": "formal",
+    "image": "/images/products/generated/p97.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 278,
+    "discount": 10
+  },
+  {
+    "id": "p98",
+    "name_en": "Charcoal Satin Party Shirt 8",
+    "name_ar": "قطعة حفلات مميزة 89",
+    "price": 270,
+    "category": "party",
+    "image": "/images/products/generated/p98.svg",
+    "description_en": "Satin Party Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 311,
+    "discount": 15
+  },
+  {
+    "id": "p99",
+    "name_en": "Moss Graphic Night Tee 8",
+    "name_ar": "قطعة حفلات مميزة 90",
+    "price": 207,
+    "category": "party",
+    "image": "/images/products/generated/p99.svg",
+    "description_en": "Graphic Night Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": true,
+    "rating": 3,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 248,
+    "discount": 20
+  },
+  {
+    "id": "p100",
+    "name_en": "Black Performance Training Shorts 8",
+    "name_ar": "قطعة رياضية مريحة 91",
+    "price": 149,
+    "category": "gym",
+    "image": "/images/products/generated/p100.svg",
+    "description_en": "Performance Training Shorts designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3.2,
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#334155"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 186,
+    "discount": 25
+  },
+  {
+    "id": "p101",
+    "name_en": "Ivory Active Zip Hoodie 8",
+    "name_ar": "قطعة رياضية مريحة 92",
+    "price": 241,
+    "category": "gym",
+    "image": "/images/products/generated/p101.svg",
+    "description_en": "Active Zip Hoodie designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 3.5,
+    "colors": [
+      "#1d4ed8",
+      "#60a5fa",
+      "#e0f2fe"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 313,
+    "discount": 30
+  },
+  {
+    "id": "p102",
+    "name_en": "Navy Premium Knit Polo 8",
+    "name_ar": "قطعة كاجوال عصرية 93",
+    "price": 238,
+    "category": "casual",
+    "image": "/images/products/generated/p102.svg",
+    "description_en": "Premium Knit Polo designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 3.7,
+    "colors": [
+      "#991b1b",
+      "#f97316",
+      "#fef3c7"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 321,
+    "discount": 35
+  },
+  {
+    "id": "p103",
+    "name_en": "Olive Slim Formal Blazer 8",
+    "name_ar": "قطعة رسمية أنيقة 94",
+    "price": 370,
+    "category": "formal",
+    "image": "/images/products/generated/p103.svg",
+    "description_en": "Slim Formal Blazer designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4,
+    "colors": [
+      "#166534",
+      "#6b7f68",
+      "#dcfce7"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 518,
+    "discount": 40
+  },
+  {
+    "id": "p104",
+    "name_en": "Burgundy Statement Overshirt 8",
+    "name_ar": "قطعة حفلات مميزة 95",
+    "price": 267,
+    "category": "party",
+    "image": "/images/products/generated/p104.svg",
+    "description_en": "Statement Overshirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم مميز للحفلات بألوان لافتة وخامة مريحة لإطلالة عصرية.",
+    "inStock": false,
+    "rating": 4.1,
+    "colors": [
+      "#581c87",
+      "#a855f7",
+      "#f5d0fe"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ]
+  },
+  {
+    "id": "p105",
+    "name_en": "Slate Breathable Gym Tank 8",
+    "name_ar": "قطعة رياضية مريحة 96",
+    "price": 114,
+    "category": "gym",
+    "image": "/images/products/generated/p105.svg",
+    "description_en": "Breathable Gym Tank designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رياضي مريح بخامة خفيفة وألوان متنوعة تناسب التمارين والحركة.",
+    "inStock": true,
+    "rating": 4.3,
+    "colors": [
+      "#7c2d12",
+      "#c75d2c",
+      "#fed7aa"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "oldPrice": 125,
+    "discount": 10
+  },
+  {
+    "id": "p106",
+    "name_en": "Sand Essential Cotton Tee 9",
+    "name_ar": "قطعة كاجوال عصرية 97",
+    "price": 149,
+    "category": "casual",
+    "image": "/images/products/generated/p106.svg",
+    "description_en": "Essential Cotton Tee designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.5,
+    "colors": [
+      "#0f172a",
+      "#64748b",
+      "#e5e7eb"
+    ],
+    "sizes": [
+      "X-Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 171,
+    "discount": 15
+  },
+  {
+    "id": "p107",
+    "name_en": "Sky Relaxed Denim Jacket 9",
+    "name_ar": "قطعة كاجوال عصرية 98",
+    "price": 321,
+    "category": "casual",
+    "image": "/images/products/generated/p107.svg",
+    "description_en": "Relaxed Denim Jacket designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم كاجوال مريح بألوان متنوعة وخامة ناعمة مناسبة للاستخدام اليومي.",
+    "inStock": true,
+    "rating": 4.7,
+    "colors": [
+      "#be123c",
+      "#b56b77",
+      "#ffe4e6"
+    ],
+    "sizes": [
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "oldPrice": 385,
+    "discount": 20
+  },
+  {
+    "id": "p108",
+    "name_en": "Charcoal Oxford Button Shirt 9",
+    "name_ar": "قطعة رسمية أنيقة 99",
+    "price": 253,
+    "category": "formal",
+    "image": "/images/products/generated/p108.svg",
+    "description_en": "Oxford Button Shirt designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 4.8,
+    "colors": [
+      "#0891b2",
+      "#14b8a6",
+      "#ccfbf1"
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 316,
+    "discount": 25
+  },
+  {
+    "id": "p109",
+    "name_en": "Moss Tailored Chino Pants 9",
+    "name_ar": "قطعة رسمية أنيقة 100",
+    "price": 285,
+    "category": "formal",
+    "image": "/images/products/generated/p109.svg",
+    "description_en": "Tailored Chino Pants designed with dependable fabric, fresh colors, and a comfortable fit for daily styling.",
+    "description_ar": "تصميم رسمي أنيق بقصة مرتبة وألوان متنوعة تناسب الإطلالات الذكية.",
+    "inStock": true,
+    "rating": 5,
+    "colors": [
+      "#ca8a04",
+      "#ffc633",
+      "#fef9c3"
+    ],
+    "sizes": [
+      "One Size",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "oldPrice": 371,
+    "discount": 30
   }
 ]

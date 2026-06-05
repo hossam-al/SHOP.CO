@@ -28,6 +28,30 @@ export type CartLine = {
   quantity: number;
 };
 
+export type OrderStatus = "processing" | "shipped" | "delivered" | "cancelled";
+
+export type OrderAddress = {
+  name: string;
+  email: string;
+  phone: string;
+  governorate: string;
+  city: string;
+  address: string;
+};
+
+export type Order = {
+  id: string;
+  date: string;
+  status: OrderStatus;
+  trackingNumber: string;
+  estimatedDelivery: string;
+  subtotal: number;
+  shippingFee: number;
+  total: number;
+  lines: CartLine[];
+  address: OrderAddress;
+};
+
 export function localizedName(product: Product, locale: Locale) {
   return locale === "ar" ? product.name_ar : product.name_en;
 }
