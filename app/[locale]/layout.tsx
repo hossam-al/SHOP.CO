@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -44,6 +45,7 @@ export default async function LocaleLayout({
           <Header locale={typedLocale} />
           <main id="main-content">{children}</main>
           <Footer locale={typedLocale} />
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>
