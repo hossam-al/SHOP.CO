@@ -99,7 +99,7 @@ function OrderCard({
 }) {
   const t = useTranslations("accountPage");
   const cartText = useTranslations("cart");
-  const isAr = locale === "ar";
+  // const isAr = locale === "ar";
   const orderProducts = order.lines
     .map((line) => ({ ...line, product: products.find((product) => product.id === line.productId) }))
     .filter((line) => line.product);

@@ -43,7 +43,7 @@ export function CategoryFilters({
   const [openSections, setOpenSections] = useState<Record<FilterSection, boolean>>({
     price: true,
     colors: true,
-    size: true,
+    size: false,
     dressStyle: false,
   });
   const searchKey = searchParams.toString();
